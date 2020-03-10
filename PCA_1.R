@@ -36,5 +36,17 @@ fviz_pca_var(PCA_Graphic, axes = c(1, 2), geom = c("arrow", "text"),
 tiff("PCA_21_vars.tiff", width = 984, height = 615, unit = "px", res = 300)
 
 dev.off()
+
+
+### PCA of 5 variables major contribuiton
+
+pca_21_var <- read.csv("./data/PCA/stand_test.csv", sep = ",")
+
+  fviz_pca_var(PCA_Graphic, select.var = list(contrib = 5), labelsize = 3) + 
+  labs(title ="Principal component analysis (PCA)", x = "PC1", y = "PC2")
+
+tiff("PCA_5_contr.tiff", width = 984, height = 615, unit = "px", res = 300)
+dev.off()
+  
     
 ################# END 
