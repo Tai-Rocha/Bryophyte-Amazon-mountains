@@ -1,5 +1,5 @@
 ###################################################################
-# Correlation matrix among 21 variables from wordclim version 2  
+# Principal component analysis (PCA) 21 variables from wordclim version 2  
 # Tainá Rocha                     
 # Last update : 10/03/2020
 #################################################################
