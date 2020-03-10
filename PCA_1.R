@@ -4,6 +4,8 @@
 # Last update : 10/03/2020
 ###########################################################################
 
+### Library
+
   library(factoextra)
   library(FactoMineR)
   library(ggcorrplot)
